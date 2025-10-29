@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at 20% 20%, #2d0051, #0b001b 60%, #050014);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+h3 {
+    color: #ed2bc9;
+}
+
+
+#part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+
+}
+
+#navigation nav {
+    display: flex;
+    gap: 25px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #dcdcf7;
+    
+}
+
+
+#part2 {
+    padding: 20px 60px; 
+}
+
+#part2 p {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+    width: 230px;
+    height: 35px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #ed2bc9;
+    border: none;
+}
+
+button:hover {
+    background-color: #f30ec9;
+    border: 2px solid rgba(255, 0, 204, 0.4);
+    box-shadow: 0 0 20px rgba(255, 0, 204, 0.9);
+}
+
+#part2 #countdown {
+    margin: 10px;
+}
+
+#part3 {
+   padding: 20px 60px;
+}
+
+#part3 #speakers {
+    display: flex;
+    flex-direction: row;
+    gap:40px; 
+}
+
+#part3 p, #part4 p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#speakers div{
+    width: 230px;
+    height: 280px;
+    border: 2px solid #ff00cc;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(255, 0, 204, 0.4);
+    transition: 0.3s;
+}
+
+#speakers div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(255, 0, 204, 0.9),
+                0 0 40px rgba(255, 0, 204, 0.6);
+}
+
+
+#part4 {
+    padding: 20px 60px;
+}
+
+#part4 #events {
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+
+}
+
+#part4 #events div {
+    width: 230px;
+    height: 280px;
+    border: 2px solid #ff00cc;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(255, 0, 204, 0.4);
+    transition: 0.3s; 
+}
+
+#part4 #events div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(255, 0, 204, 0.9),
+                0 0 40px rgba(255, 0, 204, 0.6);
+}
+
+#part4 button {
+    margin-top: 20px;
+}
+
