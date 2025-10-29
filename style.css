@@ -158,3 +158,12 @@ button:hover {
 #part4 button {
     margin-top: 50px;
 }
+
+.sec {
+    background-image: url("images/background2.png");
+    background-size: cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    opacity: 1;
+}
