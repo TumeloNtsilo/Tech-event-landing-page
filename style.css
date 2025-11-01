@@ -167,3 +167,8 @@ button:hover {
     background-size: 60% auto;
     opacity: 1;
 }
+
+#countdown {
+    font-size: 30px;
+    font-weight: 600;
+}
