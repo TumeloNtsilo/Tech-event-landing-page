@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="reg">
+        <section id="reg_part1">
+            <h1>Registration</h1>
+        </section>
+
+        <section id="reg_part2">
+            <div id="registration">
+                <form action="/">
+                    <input type="text" name="name" id="name" placeholder="Name*" required>
+                    <input type="text" name="surname" id="surname" placeholder="Surname*" required>
+                    <input type="email" placeholder="Email*" required>
+                    <input type="tel" placeholder="Cell number*" pattern="^\+?[0-9\s\-]{7,15}$" required>
+
+                    <input type="submit" id="submitButton">
+                </form>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

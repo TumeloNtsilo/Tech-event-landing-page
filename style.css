@@ -33,12 +33,12 @@ h3 {
 #navigation a {
     text-decoration: none;
     color: #dcdcf7;
-    
+
 }
 
 
 #part2 {
-    padding: 20px 60px; 
+    padding: 20px 60px;
 }
 
 #part2 p {
@@ -68,14 +68,14 @@ button:hover {
 }
 
 #part3 {
-   padding: 20px 60px;
-   margin-bottom: 20px;
+    padding: 20px 60px;
+    margin-bottom: 20px;
 }
 
 #part3 #speakers {
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap: 40px;
 
 }
 
@@ -85,13 +85,13 @@ button:hover {
     border: 2px solid #ff00cc;
     background-color: rgba(255, 255, 255, 0.05);
     box-shadow: 0 0 10px rgba(255, 0, 204, 0.4);
-    transition: 0.3s; 
+    transition: 0.3s;
 }
 
 #part3 #speakers div:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 20px rgba(255, 0, 204, 0.9),
-                0 0 40px rgba(255, 0, 204, 0.6);
+        0 0 40px rgba(255, 0, 204, 0.6);
 }
 
 #part3 #speaker {
@@ -99,12 +99,13 @@ button:hover {
 }
 
 #part3 #speaker p {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 
 
-#part3 p, #part4 p {
+#part3 p,
+#part4 p {
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -112,10 +113,10 @@ button:hover {
 
 
 .image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 
@@ -126,7 +127,7 @@ button:hover {
 #part4 #events {
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap: 40px;
 
 }
 
@@ -136,13 +137,13 @@ button:hover {
     border: 2px solid #ff00cc;
     background-color: rgba(255, 255, 255, 0.05);
     box-shadow: 0 0 10px rgba(255, 0, 204, 0.4);
-    transition: 0.3s; 
+    transition: 0.3s;
 }
 
 #part4 #events div:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 20px rgba(255, 0, 204, 0.9),
-                0 0 40px rgba(255, 0, 204, 0.6);
+        0 0 40px rgba(255, 0, 204, 0.6);
 }
 
 
@@ -152,17 +153,22 @@ button:hover {
 }
 
 #part4 #event p {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #part4 button {
     margin-top: 50px;
 }
 
-.sec {
+.reg {
+    width: 100%;
+    height: 700px;
+}
+
+.sec, .reg {
     background-image: url("images/background2.png");
     background-size: cover;
-    background-position:right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 60% auto;
     opacity: 1;
@@ -172,3 +178,36 @@ button:hover {
     font-size: 30px;
     font-weight: 600;
 }
+
+#reg_part1 {
+    padding: 20px 60px;
+    font-size: 1.5em;
+}
+
+#reg_part2 {
+    padding: 20px 60px;
+    margin-bottom: 20px;
+}
+
+#registration {
+    width: 400px;
+    height: 300px;
+    background-color: #ed2bc9;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#registration input {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#registration #submitButton {
+    background-color: #2d0051;
+    color: #ffffff;
+    font-weight:600;
+}
+
